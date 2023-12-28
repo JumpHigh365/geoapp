@@ -1,0 +1,39 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+#root {
+  height: 100vh;
+}
+
+.leaflet-bottom.leaflet-right {
+  display: none;
+}
+
+.leaflet-top {
+  display:none
+}
+
+.active-tabs {
+  color: #699BF7;
+}
+
+.content {
+  display: none;
+}
+
+.show-content {
+  display: block;
+}
+
